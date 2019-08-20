@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<script>
+	
+	var pelis = [
+	{"Nombre":"El señor de los anillos", "Genero":"Acción"}, 
+  {"Nombre":"Regreso al Futuro", "Genero":"Acción"},
+  {"Nombre":"Los increibles 2", "Genero":"Animación"},
+  {"Nombre":"Minority report", "Genero":"Ciencia ficción"}, 
+  {"Nombre":"Oculus", "Genero":"Terror"},
+  {"Nombre":"The ritual", "Genero":"Terror"},
+  {"Nombre":"El spider verso", "Genero":"Animación"}, 
+  {"Nombre":"Oblivion", "Genero":"Ciencia ficción"},
+  {"Nombre":"Atrapados en Chernobil", "Genero":"Terror"},
+  {"Nombre":"Coco", "Genero":"Animación"}, 
+  {"Nombre":"Todd y Tobby", "Genero":"Animación"},
+  {"Nombre":"Hasta el último hombre", "Genero":"Acción"},
+  {"Nombre":"Que dios nos perdone", "Genero":"Acción"}, 
+  {"Nombre":"Los extraños", "Genero":"Terror"},
+  {"Nombre":"En tierra hostil", "Genero":"Acción"},
+  {"Nombre":"Avatar", "Genero":"Ciencia ficción"}, 
+  {"Nombre":"Alita", "Genero":"Ciencia ficción"},
+  {"Nombre":"Tarzán", "Genero":"Animación"},
+  {"Nombre":"Buscando a Nemo", "Genero":"Animación"}, 
+  {"Nombre":"Casino Royale", "Genero":"Acción"},
+  {"Nombre":"El mito de Bourne", "Genero":"Acción"} 
+] ;
+
+document.write("<ul>");
+
+for (i=0; i<pelis.length; i++){
+document.write("<li>" + pelis[i].Nombre +" : ", pelis[i] ["Genero"]+ "</li><br/>" );
+}
+
+document.write("</ul>");
+
+document.querySelector("ul").style.backgroundColor = "lightcoral";
+
+
+	</script>
+
+</head>
+	<body>
+
+
+	</body>	    
+</html>
+
